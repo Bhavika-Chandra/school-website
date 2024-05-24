@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="C:\Users\luckn\Documents\school-website\Styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+
+    <title>
+    jantaintercollege
+    </title>
+    <meta name="viewport" content="width=device-width", initial-scale="1">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images\Screenshot 2024-05-22 194100.png"></a>
+            <div class="nav-links" id=""navLinks>
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d911683.1503058973!2d81.9776800711024!3d26.799775298410772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39940a117e221cf7%3A0xaa05f8658682df84!2sJanta%20Inter%20Collage!5e0!3m2!1sen!2sin!4v1716475285625!5m2!1sen!2sin" 
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+
+    <section class="contact-us">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>Janta Inter College, Kotwa Kala, Kushi Nagar</h5>
+                    <p>Gorakhpur, Uttar Pradesh, IN</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+91 9901257722</h5>
+                    <p>Monday to Saturday, 10AM to 6PM</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <span>
+                    <h5>janta.intercollege63@gmail.com</h5>
+                    <p>Email your query</p>
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div>
+            <p>Made with <i class="fa fa-heart"></i> by Bhavika Chandra</p>
+        </div>
+    </section>
+
+    <!--Javascript for Toggle Menu-->
+    <script>
+        const navLinks = document.getElementById("navLinks");
+        
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

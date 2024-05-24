@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="C:\Users\luckn\Documents\school-website\Styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+
+    <title>
+    jantaintercollege
+    </title>
+    <meta name="viewport" content="width=device-width", initial-scale="1">
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images\Screenshot 2024-05-22 194100.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Welcome to Janta Inter College!</h1>
+            <a href="about.html" class="hero-btn">Know More</a>
+        </div>
+    </section>
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+        <div class = "row">
+            <div class="facilities-col">
+                <h3>Sports Ground</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Aut veritatis consequatur excepturi ipsam unde illum ullam et facilis. 
+                    Aspernatur dolorem rerum vel fugit harum mollitia nisi 
+                    necessitatibus id pariatur sint!</p>
+            </div>
+            <div class="facilities-col">
+                <h3>Library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Aut veritatis consequatur excepturi ipsam unde illum ullam et facilis. 
+                    Aspernatur dolorem rerum vel fugit harum mollitia nisi 
+                    necessitatibus id pariatur sint!</p>
+            </div>
+            <div class="facilities-col">
+                <h3>Multipurpose Hall</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Aut veritatis consequatur excepturi ipsam unde illum ullam et facilis. 
+                    Aspernatur dolorem rerum vel fugit harum mollitia nisi 
+                    necessitatibus id pariatur sint!</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="campus">
+        <h1>Our Campus</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="images\school-classroom-blur1.jpg" alt="">
+                <div class="layer">
+                    <h3>Classroom</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images\school-classroom-blur1.jpg" alt="">
+                <div class="layer">
+                    <h3>Sports Ground</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images\school-classroom-blur1.jpg" alt="">
+                <div class="layer">
+                    <h3>Multipurpose Hall</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h1>Enroll online</h1>
+        <a href="contact.html" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Rem dolores voluptatem repellat enim a porro saepe magnam autem,<br> 
+            aut dignissimos eum placeat repudiandae laudantium iure eaque 
+            quia ab corrupti nihil?</p>
+        <div>
+            <p>Made with <i class="fa fa-heart"></i> by Bhavika Chandra</p>
+        </div>
+    </section>
+
+    <!--Javascript for Toggle Menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
